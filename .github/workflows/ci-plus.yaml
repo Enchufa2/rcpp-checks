@@ -8,6 +8,7 @@ on:
       ref:
         required: true
         type: string
+        default: master
 
 env:
   _R_CHECK_FORCE_SUGGESTS_: "false"
